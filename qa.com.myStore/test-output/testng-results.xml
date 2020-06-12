@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="190348" started-at="2020-06-12T17:52:10 IST" finished-at="2020-06-12T17:55:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="190348" started-at="2020-06-12T17:52:10 IST" finished-at="2020-06-12T17:55:21 IST">
+      <class name="myStore.TestPackages.testClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:myStore.TestPackages.testClass@2f8f5f62]" name="beforeSuite" is-config="true" duration-ms="32" started-at="2020-06-12T17:52:10 IST" finished-at="2020-06-12T17:52:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myStore.TestPackages.testClass@2f8f5f62]" name="beforeClass" is-config="true" duration-ms="10" started-at="2020-06-12T17:52:10 IST" finished-at="2020-06-12T17:52:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethodClass()[pri:0, instance:myStore.TestPackages.testClass@2f8f5f62]" name="beforeMethodClass" is-config="true" duration-ms="41777" started-at="2020-06-12T17:52:10 IST" finished-at="2020-06-12T17:52:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method status="PASS" signature="myStore()[pri:0, instance:myStore.TestPackages.testClass@2f8f5f62]" name="myStore" duration-ms="135790" started-at="2020-06-12T17:52:52 IST" finished-at="2020-06-12T17:55:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myStore -->
+        <test-method status="PASS" signature="close()[pri:0, instance:myStore.TestPackages.testClass@2f8f5f62]" name="close" is-config="true" duration-ms="12554" started-at="2020-06-12T17:55:08 IST" finished-at="2020-06-12T17:55:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:myStore.TestPackages.testClass@2f8f5f62]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-06-12T17:55:21 IST" finished-at="2020-06-12T17:55:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:myStore.TestPackages.testClass@2f8f5f62]" name="afterSuite" is-config="true" duration-ms="55132" started-at="2020-06-12T17:55:26 IST" finished-at="2020-06-12T17:56:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- myStore.TestPackages.testClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
