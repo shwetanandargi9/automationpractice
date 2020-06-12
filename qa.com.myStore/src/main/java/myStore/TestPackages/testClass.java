@@ -25,7 +25,7 @@ public class testClass extends helperClass {
 
 			driver.get("http://automationpractice.com/index.php");
 			signInPage signInPage = PageFactory.initElements(driver, signInPage.class);
-			signInPage.signIn("shwetanandargi@gmail.com", "Shweta", "N", "Shwet@", "Shweta", "N", "Ecommerce",
+			signInPage.signIn("shweta@gmail.com", "Shweta", "N", "Shwet@", "Shweta", "N", "Ecommerce",
 					"#403 Building B1,LA", "LA", "US", "00012", "United States", "8050479605", "Wilson Road");
 
 			driver.findElement(By.xpath("//header[@id='header']//div//div//div//nav//div//a[contains(text(),'Sign out')]")).click();
@@ -45,7 +45,7 @@ public class testClass extends helperClass {
 			//driver.get("http://automationpractice.com/index.php");
 			
 			loginPage loginPage = PageFactory.initElements(driver, loginPage.class);
-			loginPage.login("shwetanandargi91@gmail.com","Shwet@");
+			loginPage.login("shweta@gmail.com","Shwet@");
 			
 			Actions act = new Actions(driver);
 			WebElement ViewOption = driver.findElement(By.xpath("//div[@id='block_top_menu']//a[contains(text(),'Women')]"));
